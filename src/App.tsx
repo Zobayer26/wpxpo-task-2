@@ -1,9 +1,9 @@
 
-import DropDown from "./Components/DropDown";
+import DropDown from "./components/DropDown";
 
 function App() {
   const options = ["Apple", "Banana", "Cherry", "Date", "Elderberry"];
-  const handleOption = (selected) => {
+  const handleOption = (selected: string | string[]) => {
     console.log("Selected Options:", selected);
   };
 
